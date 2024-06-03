@@ -1,4 +1,4 @@
-namespace BugTests;
+namespace BugTests {
     [TestClass]
     public class UnitTest1
     {
@@ -93,3 +93,4 @@ namespace BugTests;
             Assert.AreEqual(Bug.State.Assigned, bug.getState());
         }
     }
+}
